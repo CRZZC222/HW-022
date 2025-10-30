@@ -52,11 +52,15 @@ male_summarise
 
 
 _Write your text to answer exercise 1a here (Please delete this message before submission!)_
-
+The distribution is right-skewed (positively skewed). As the heart rate increases, the frequency gradually decreases.unimodal distribution. Most runners have a low heart rate, with a minority having a higher rate.
 
 ```{r ex1b, out.width="80%"}
 # Write your code for Ex1b here
-
+data_5k_10k %>% 
+  filter(gender == "F") %>%
+  filter(!is.na(average.heart.rate..bpm.)) %>%
+  ggplot(aes(x = average.heart.rate..bpm.)) + 
+  geom_histogram(bins = 20)
 
 
 
@@ -65,7 +69,8 @@ _Write your text to answer exercise 1a here (Please delete this message before s
 
 
 _Write your text to answer exercise 1b here (Please delete this message before submission!)_
-
+The average heart rate distribution for this group of runners is an approximately normal, unimodal, and symmetric distribution.
+Both datasets have only one distinct peak. But distribution Shape (Skewness) is the most critical difference.Not only is the central value of the average heart rate higher in the female group, but its distribution shape is also fundamentally different from the right-skewed male distribution, exhibiting symmetry.
 
 ## Exercise 2
 
