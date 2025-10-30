@@ -36,6 +36,18 @@ data_5k_10k %>%
   filter(!is.na(average.heart.rate..bpm.)) %>%
   ggplot(aes(x = average.heart.rate..bpm.)) + 
   geom_histogram(bins = 20)
+
+male_summarise <- data_5k_10k %>% 
+  filter(gender =="M") %>%
+  filter(!is.na(average.heart.rate..bpm.)) %>%
+  summarise(
+    mean_hr = mean(average.heart.rate..bpm.),
+    var_hr = var(average.heart.rate..bpm.),
+    sd_hr = sd(average.heart.rate..bpm.),
+    Min_hr = min(average.heart.rate..bpm.),
+    Max_hr = max(average.heart.rate..bpm.)
+  )
+male_summarise
 ```
 
 
