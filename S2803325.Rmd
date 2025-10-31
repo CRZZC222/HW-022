@@ -195,18 +195,18 @@ ggplot(data = strava_filtered,
 
 #{r ex4_good_viz, echo = FALSE, out.width = "80%"}
 # edit the file path accordingly
-knitr::include_graphics("img/good_viz.png")
+knitr::include_graphics("img/population-with-un-projections.png")
 ```
 
 _Edit the text below by replacing the bold text with the appropriate information to provide a reference for your image (Please delete this message before submission!)_
 
-**Author/Organisation**, "**Title of website**" [Online]. Available at: **URL** (Accessed: **day month year**)
+**UN, World Population Prospects (2024) **, "**https://ourworldindata.org/population-growth/**" [Online]. Available at: **https://ourworldindata.org/grapher/population-with-un-projections.csv?v=1&csvType=full&useColumnShortNames=true** (Accessed: **31/10/2025**)
 
 
 The above image presents a good data visualisation because:
 
--   _Reason 1_
--   _Reason 2_
+-   _Reason 1_Respects the Audience: The chart uses a clean, single line to make the complex trend of global population growth immediately understandable. Prominent labels (e.g., "10 billion") and a clear timeline allow anyone to grasp the scale and trajectory without technical expertise.
+-   _Reason 2_Respects the Data and Context: It honestly communicates uncertainty by using a solid line for historical data and a dashed line for future UN projections. This clear visual distinction, supported by a source footnote, ensures the audience differentiates between measured facts and forecasted models.
 
 
 #### Example of a bad data visualisation
