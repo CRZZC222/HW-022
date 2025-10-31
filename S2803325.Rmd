@@ -214,18 +214,18 @@ The above image presents a good data visualisation because:
 
 ```{r ex4_bad_viz, echo = FALSE, out.width = "80%"}
 # edit the file path accordingly
-knitr::include_graphics("img/bad_viz.png")
+knitr::include_graphics("img/WechatIMG47.jpg")
 ```
 
 _Edit the text below by replacing the bold text with the appropriate information to provide a reference for your image (Please delete this message before submission!)_
 
-**Author/Organisation**, "**Title of website**" [Online]. Available at: **URL** (Accessed: **day month year**)
+**Emery, Ann K.**, "**Be Careful with the Y‑Axis Depict Data Studio**" [Online]. Available at: ** https://depictdatastudio.com/be-careful-with-the-y-axis/ ** (Accessed: **31/10/2025**)
 
 
 
 The above image presents a bad data visualisation because:
 
--   _Reason 1_
--   _Reason 2_
+-   _Reason 1_Disrespects the Audience: It presents raw numbers instead of a visual encoding like bars or a line, forcing viewers to mentally compare values (e.g., 26,113 vs. 27,085) to see trends. This makes the data difficult and slow to understand.
+-   _Reason 2_Disrespects the Platform: It misuses the graphical space. A chart's purpose is to show relationships visually, but this design fails to transform the data into an intuitive visual form, making it an ineffective and inefficient chart.
 
 
